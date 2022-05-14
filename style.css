@@ -54,6 +54,8 @@ main img {
   margin: 10px;
 }
 
+
+
 /* -------  Navigation ------- */
 
 header {
@@ -102,10 +104,7 @@ form {
 
 form label {
   font-weight: bold;
-}
-
-form div {
-  justify-content: space-between;
+  /* padding-left: 20px; */
 }
 
 form select,
@@ -125,11 +124,6 @@ form button {
 
 fieldset {
   border: 2px solid #6b1a22;
-  width: 100%;
-}
-
-fieldset div input {
-  justify-content: flex-end;
 }
 
 /* -------  Footer ------- */
@@ -170,5 +164,22 @@ footer p {
 
   .group {
     display: flex;
+  }
+
+  .item-doublep {
+    flex: 2;
+    margin: 25px;
+    font-size: small;
+  }
+
+  form {
+    margin-top: 20%;
+    margin-bottom: 25%
+  }
+
+  .itemp {
+    flex: 1;
+    margin: 45px;
+    font-size: small;
   }
 }
